@@ -1,0 +1,564 @@
+#header .black-header {
+  background-color: black;
+  padding: 20px 0px;
+}
+#header .black-header .header-left {
+  color: whitesmoke;
+}
+#header .black-header .header-left i {
+  padding-left: 10px;
+}
+#header .black-header .header-left i span {
+  padding: 5px;
+  color: whitesmoke;
+}
+#header .black-header .header-right a {
+  color: white;
+  padding-right: 8px;
+}
+#header .white {
+  position: fixed;
+  width: 100%;
+  z-index: 1090;
+  color: white;
+}
+#header .white .col-lg-9 .dropdown {
+  padding: 30px;
+  display: inline;
+  position: relative;
+  z-index: 10;
+}
+#header .white .col-lg-9 .dropdown:hover .drop-content {
+  visibility: visible;
+  bottom: -70px;
+}
+#header .white .col-lg-9 .dropdown .btm {
+  font-family: poppins, sans-serif;
+  color: white;
+  font-weight: 700;
+  padding: 30px 0;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+#header .white .col-lg-9 .dropdown .drop-content {
+  position: absolute;
+  bottom: -80px;
+  background-color: white;
+  visibility: hidden;
+  width: 150px;
+  left: 0;
+  transition: 0.1s linear;
+}
+#header .white .col-lg-9 .dropdown .drop-content a {
+  display: block;
+  color: #979AAE;
+  text-decoration: none;
+  border-bottom: 1px solid #B7B8B7;
+}
+#header .white .col-lg-9 .dropdown .drop-content a:hover {
+  color: #56A2FF;
+}
+
+.photo {
+  padding: 13rem 0rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url(http://html.dynamiclayers.net/at/venox/img/slider-1.jpg);
+}
+.photo .container {
+  text-align: left;
+  color: white;
+}
+.photo .container .text h6 {
+  font-family: poppins,sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #ddd;
+  font-weight: bold;
+}
+.photo .container .text h1 {
+  font-size: 40px;
+  letter-spacing: -3px;
+  line-height: 45px;
+  font-weight: bold;
+}
+.photo .container .text p {
+  color: #ddd;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.photo .container .text a {
+  background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%) !important;
+  font-family: poppins,sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 45px;
+  padding: 20px 25px;
+  border-radius: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.middle-text {
+  padding: 5rem 0rem;
+}
+.middle-text .container h3 {
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #999;
+}
+.middle-text .container h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+.middle-text .container hr {
+  width: 90px;
+  border-color: blue;
+  border-width: 2px;
+}
+
+.middle .box {
+  position: relative;
+  margin: 0px 10px;
+  padding: 0;
+}
+.middle .box p {
+  visibility: hidden;
+  margin: 0;
+}
+.middle .box h4 {
+  font-size: 20px;
+}
+.middle .box .overlay {
+  position: absolute;
+  background-color: #56a2ff;
+  left: 0%;
+  bottom: 0%;
+  transform: translate(-50% -50%);
+  width: 100%;
+  height: 20%;
+  transition: 0.3s;
+}
+.middle .box:hover p {
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+.middle .box:hover .overlay {
+  height: 90%;
+  opacity: 0.9;
+}
+
+.services {
+  background-color: #f2f2f2;
+  margin-top: 50px;
+}
+.services .container .services-text {
+  padding: 30px 0px;
+}
+.services .container .services-text h4 {
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #999;
+}
+.services .container .services-text h1 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.services .container .services-text hr {
+  width: 90px;
+  border-color: blue;
+  border-width: 2px;
+}
+.services .container .icon-text {
+  margin: 2px;
+}
+.services .container .icon-text i {
+  font-size: 40px;
+  color: blue;
+}
+.services .container .icon-text h1 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #333;
+  letter-spacing: -0.02em;
+}
+.services .container .icon-text p {
+  font-size: 16px;
+}
+
+.award {
+  background-image: url(http://html.dynamiclayers.net/at/venox/img/counter-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 100px 0;
+}
+.award i {
+  color: white;
+  font-weight: 700;
+  font-size: 45px;
+}
+.award h1, .award p {
+  color: white;
+  margin: 5px 0px;
+}
+
+.project {
+  background-color: #f2f2f2;
+}
+.project .project-text {
+  padding: 20px 0px;
+  text-align: center;
+}
+.project .project-text h4 {
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #999;
+}
+.project .project-text h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.project .project-text hr {
+  width: 90px;
+  border-color: blue;
+  border-width: 2px;
+}
+.project .row {
+  padding: 50px 0px;
+}
+.project .row .col-lg-3 .photo-text {
+  background-color: white;
+}
+.project .row .col-lg-3 .photo-text h3 {
+  font-size: 20px;
+  padding: 3px 10px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #333;
+  letter-spacing: -.02em;
+}
+.project .row .col-lg-3 .photo-text h5 {
+  padding: 3px 10px;
+  font-family: poppins,sans-serif;
+  color: #999;
+  font-weight: 700;
+  font-size: 15px;
+}
+.project .row .col-lg-3 .photo-text p {
+  font-size: 17px;
+  padding: 3px 10px;
+}
+.project .row .col-lg-3 .photo-text button {
+  background-color: #56a2ff;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0px 0px 10px 10px;
+}
+
+.request {
+  background-image: url(http://html.dynamiclayers.net/at/venox/img/request-bg.jpg);
+  background-position: 100% 40%;
+  background-size: 50%;
+  padding: 5rem 0rem 5rem 0rem;
+  background-repeat: no-repeat;
+}
+.request .col-lg-6 input {
+  margin: 5px 0px;
+  padding: 5px 5px;
+  color: #777;
+  font-weight: 500;
+}
+.request .col-lg-6 textarea {
+  color: #777;
+  font-weight: 500;
+}
+.request .col-lg-6 .input4 button {
+  background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%) !important;
+  font-family: poppins,sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+  line-height: 30px;
+  padding: 5px 15px;
+  border-radius: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+}
+.request .col-lg-6 .input4 button::after {
+  background-color: #c8ccc8;
+  position: absolute;
+  z-index: -10;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  transition: 0.6s;
+  transform-origin: bottom left;
+}
+.request .col-lg-6 .input4 button:hover {
+  color: black;
+}
+.request .col-lg-6 .input4 button:hover::after {
+  transform-origin: bottom right;
+  width: 100%;
+}
+
+.plans {
+  background-color: #f2f2f2;
+}
+.plans .container .plans-text {
+  padding: 30px 0px;
+}
+.plans .container .plans-text h4 {
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #999;
+}
+.plans .container .plans-text h1 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.plans .container .plans-text hr {
+  width: 90px;
+  border-color: blue;
+  border-width: 2px;
+}
+.plans .container .row {
+  padding-bottom: 40px;
+}
+.plans .container .row .col-lg-3 {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.plans .container .row .col-lg-3 i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.plans .container .row .col-lg-3 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #999;
+  margin-bottom: 10px;
+}
+.plans .container .row .col-lg-3 h2 {
+  color: #333;
+  margin: 0 0 8px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -.04em;
+}
+.plans .container .row .col-lg-3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0px;
+}
+.plans .container .row .col-lg-3 ul li {
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #777;
+  font-weight: 400;
+}
+.plans .container .row .col-lg-3 a {
+  background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%) !important;
+  font-family: poppins,sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 45px;
+  padding: 20px 25px;
+  border-radius: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.people {
+  padding: 50px 0px;
+}
+.people .col-lg-3 h5 {
+  font-size: 16px;
+}
+.people .col-lg-3 img {
+  margin-top: 30px;
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.people .col-lg-3 ul {
+  list-style: none;
+}
+.people .col-lg-3 ul li i {
+  color: #fab702;
+}
+.people .ortadaki {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.consulting {
+  background-image: url(http://html.dynamiclayers.net/at/venox/img/cta-bg.jpg);
+  padding: 10px 0px 100px 0px;
+}
+.consulting h1, .consulting p {
+  color: white;
+}
+.consulting button {
+  background-image: linear-gradient(-45deg, #2b18dd 0%, #56a2ff 50%, #51eca5 100%) !important;
+  font-family: poppins,sans-serif;
+  letter-spacing: 2px;
+  color: #fff;
+  border: none;
+  line-height: 30px;
+  padding: 5px 15px;
+  border-radius: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.story {
+  background-color: #f2f2f2;
+}
+.story .story-text {
+  padding: 20px 0px;
+  text-align: center;
+}
+.story .story-text h4 {
+  font-family: poppins,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #999;
+}
+.story .story-text h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.story .story-text hr {
+  width: 90px;
+  border-color: blue;
+  border-width: 2px;
+}
+.story .row {
+  padding: 50px 0px;
+}
+.story .row .col-lg-4 .image2 img {
+  transition: 0.6s;
+}
+.story .row .col-lg-4 .image2 img:hover {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.story .row .col-lg-4 .photo2-text h3 {
+  font-family: poppins,sans-serif;
+  letter-spacing: -.04em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.story .row .col-lg-4 .photo2-text h5 {
+  font-family: poppins,sans-serif;
+  padding: 10px 0px;
+  color: #999;
+  font-weight: 700;
+  font-size: 14px;
+}
+.story .row .col-lg-4 .photo2-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #999;
+  font-weight: 500;
+}
+
+.marka {
+  padding: 20px 0px;
+}
+
+.footer {
+  padding: 40px 0px;
+  background-color: #151515;
+}
+.footer h3 {
+  color: #ddd;
+  padding: 5px;
+}
+.footer p {
+  color: #999;
+  padding: 30px 0px 0px 0px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  color: #999;
+}
+.footer .footer-box {
+  background-color: #999;
+}
+.footer .footer-box input {
+  border: none;
+  background-color: #999;
+}
+.footer .footer-box input::placeholder {
+  padding-left: 5px;
+  color: #ddd;
+}
+.footer .footer-box button {
+  background-color: transparent;
+  border: none;
+}
+.footer .footer-box button i {
+  color: #ddd;
+}
+
+/*# sourceMappingURL=style.css.map */
